@@ -98,6 +98,24 @@ Or you can use the Pipeline script as shown below:
 
 ![Capture 12](https://github.com/hadil-kortas/TP2-Jenkins/assets/97675597/65813df8-6421-4ff0-97e9-8b622e822b44)
 
+### Step 3: Running the Pipeline Project
+1. Click "Save" to save the Pipeline project configuration.
+2. Click "Build Now" to run the pipeline.
+
+![Capture 13](https://github.com/hadil-kortas/TP2-Jenkins/assets/97675597/0331549b-f018-4268-955f-0f1a5fbf664e)
+
+3. Track the build progress by clicking on the project and checking the build logs for messages at each step.
+
+![Capture 14](https://github.com/hadil-kortas/TP2-Jenkins/assets/97675597/5eb00695-18c3-4750-8828-fa1487f422ba)
+
+4. Make a code change in your repo and ensure the Pipeline is triggered.
+I make a change in my microservices project and commit it, the pipeline is able to detect changes made to the code and trigger the continuous integration process due to the Jenkinsfile that use 'poll SCM' to check for changes every 5 minutes.
+
+![Capture 15](https://github.com/hadil-kortas/TP2-Jenkins/assets/97675597/b2f3dbb0-6085-42f0-9b1b-92734f76966e)
+
+
+
+
 
 
 
