@@ -60,6 +60,42 @@ And this is MyFirstFreeStyle project
     - Choose "Pipeline" as the project type.
     - Click "OK" to create the Pipeline project.
 
+![Capture 11](https://github.com/hadil-kortas/TP2-Jenkins/assets/97675597/a702565f-120b-4c7a-ae52-05d9785a8d84)
+
+### Step 2: Pipeline Project Configuration
+1. In the Pipeline project configuration page, no need to configure a "Poll SCM" trigger as pipelines usually don't work that way. Instead, integrate SCM checking into your Jenkinsfile.
+2. In the Jenkinsfile, use the pollSCM function to trigger SCM check every 5 minutes and use echo to display messages at each step.
+```groovy
+pipeline {
+    agent any
+    triggers {
+        pollSCM('*/5 * * * *')
+    }
+    stages {
+        stage('Checkout') {
+            steps {
+                echo "Récupération du code source"
+                checkout scm
+            }
+        }
+        stage('Build') {
+            steps {
+                echo "Installation des dépendances"
+                echo "Build du projet"
+                echo "Exécution des tests"
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo "Déploiement du projet"
+      
+            }
+        }
+    }
+}
+
+
+
 
 
 
