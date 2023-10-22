@@ -113,9 +113,9 @@ I make a change in my microservices project and commit it, the pipeline is able 
 
 ![Capture 15](https://github.com/hadil-kortas/TP2-Jenkins/assets/97675597/b2f3dbb0-6085-42f0-9b1b-92734f76966e)
 
+And this is my two projects in the dashboard
 
-
-
+![Capture 16](https://github.com/hadil-kortas/TP2-Jenkins/assets/97675597/b92d66dc-9ce5-4f9e-8c94-15ec7031160b)
 
 
 
