@@ -56,9 +56,9 @@ And this is MyFirstFreeStyle project
 1. Go back to the Jenkins dashboard.
 2. Click on "New Item."
 3. In the opened window:
-- Name your Pipeline project, e.g., "MyPipeline."
-- Choose "Pipeline" as the project type.
-- Click "OK" to create the Pipeline project.
+    - Name your Pipeline project, e.g., "MyPipeline."
+    - Choose "Pipeline" as the project type.
+    - Click "OK" to create the Pipeline project.
 
 
 
