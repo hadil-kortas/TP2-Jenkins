@@ -7,3 +7,4 @@
 ### Step 1: Initial Jenkins Configuration
 1. Ensure Jenkins is installed and running on your server.
 2. Open a web browser and access the Jenkins interface using the URL `http://localhost:8080.`
+![hello](https://github.com/hadil-kortas/Gestion-des-formations/assets/97675597/815eec37-7c95-4233-a4e3-1383a7c7706a)
