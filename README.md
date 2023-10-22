@@ -3,6 +3,7 @@
 - Create a FreeStyle Project: Configure and run a Jenkins FreeStyle project using source code management, build steps, and progress messages.
 - Configure a Pipeline Project: Create a Jenkins Pipeline project using a Jenkinsfile, with build steps, step messages, and integrate a trigger to check SCM modifications.
 - Understand Continuous Integration: Gain a basic understanding of the continuous integration concept and how Jenkins facilitates the automation of software development tasks.
+  
 ## Part 1: FreeStyle Project
 ### Step 1: Initial Jenkins Configuration
 1. Ensure Jenkins is installed and running on your server.
@@ -35,6 +36,22 @@ I chose last year's Mini Microservices project
 4. Under "Build," add steps using shell commands with echo to display messages at each step.
 
 ![Capture 6](https://github.com/hadil-kortas/TP2-Jenkins/assets/97675597/661606ae-0751-486d-9dcb-a9d6647ab421)
+
+### Step 4: Running the FreeStyle Project
+1. Click "Save" to save the FreeStyle project configuration.
+2. Click "Build Now" to run the FreeStyle project.
+
+![Capture 8](https://github.com/hadil-kortas/TP2-Jenkins/assets/97675597/61677043-dd07-4d95-a261-7de26bfdbcb4)
+
+3. Track the build progress by clicking on the project and checking the build logs for messages at each step.
+
+![Capture 9](https://github.com/hadil-kortas/TP2-Jenkins/assets/97675597/c41beac7-d9b4-412e-8bda-9695571f91b2)
+
+And this my FirstFreeStyle project
+
+![Capture 10](https://github.com/hadil-kortas/TP2-Jenkins/assets/97675597/047e3388-697e-4dd8-b170-f80cd1f576df)
+
+
 
 
 
