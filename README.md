@@ -9,3 +9,13 @@
 2. Open a web browser and access the Jenkins interface using the URL `http://localhost:8080.`
 
 ![Capture 2](https://github.com/hadil-kortas/TP2-Jenkins/assets/97675597/57811743-4255-4782-877c-dd2d605782a4)
+
+### Step 2: Creating a FreeStyle Project
+1. On the Jenkins dashboard, click on "New Item."
+2. In the opened window:
+   - Name your FreeStyle project, e.g., "MyFreeStyleProject."
+   - Choose "Freestyle project."
+   - Click "OK" to create the project.
+
+
+![Capture 3](https://github.com/hadil-kortas/TP2-Jenkins/assets/97675597/a55302c3-373d-4f2a-8823-83178fb11816)
