@@ -93,6 +93,13 @@ pipeline {
         }
     }
 }
+```
+Or you can use the Pipeline script as shown below: 
+
+![Capture 12](https://github.com/hadil-kortas/TP2-Jenkins/assets/97675597/65813df8-6421-4ff0-97e9-8b622e822b44)
+
+
+
 
 
 
