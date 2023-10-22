@@ -52,6 +52,14 @@ And this is MyFirstFreeStyle project
 ![Capture 10](https://github.com/hadil-kortas/TP2-Jenkins/assets/97675597/047e3388-697e-4dd8-b170-f80cd1f576df)
 
 ## Part 2: Pipeline Project
+### Step 1: Creating a Pipeline Project
+1. Go back to the Jenkins dashboard.
+2. Click on "New Item."
+3. In the opened window:
+- Name your Pipeline project, e.g., "MyPipeline."
+- Choose "Pipeline" as the project type.
+- Click "OK" to create the Pipeline project.
+
 
 
 
