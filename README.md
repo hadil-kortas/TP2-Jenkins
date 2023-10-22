@@ -47,9 +47,12 @@ I chose last year's Mini Microservices project
 
 ![Capture 9](https://github.com/hadil-kortas/TP2-Jenkins/assets/97675597/c41beac7-d9b4-412e-8bda-9695571f91b2)
 
-And this my FirstFreeStyle project
+And this is MyFirstFreeStyle project
 
 ![Capture 10](https://github.com/hadil-kortas/TP2-Jenkins/assets/97675597/047e3388-697e-4dd8-b170-f80cd1f576df)
+
+## Part 2: Pipeline Project
+
 
 
 
